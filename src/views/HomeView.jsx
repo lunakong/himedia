@@ -7,6 +7,7 @@ import Skill from '../components/Skill'
 import Port from '../components/Port'
 import Contact from '../components/Contact'
 import Footer from '../components/Footer'
+import Site from '../components/Site'
 
 const HomeView = () => {
   return (
@@ -16,6 +17,7 @@ const HomeView = () => {
     <Main>
         <Intro />
         <Skill />
+        <Site />
         <Port />
         <Contact />
     </Main>
